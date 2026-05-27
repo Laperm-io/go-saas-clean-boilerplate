@@ -34,8 +34,14 @@ We engineered this template to provide the exact opposite: **sub-millisecond exe
 ├── config/               # Environment configurations
 └── Dockerfile            # Production-ready container deployment
 
+🚀 How to Use
+(Note: Production codebase is being optimized by our engineering team. Core structure rolling out below)
+
+1. Clone the repository:
 git clone [https://github.com/Laperm-io/go-saas-clean-boilerplate.git]
+2. Setup your environment variables:
 cp .env.example .env
+3. Run the environment via Docker Compose:
 docker-compose up --build
 
 💼 Need a Custom Enterprise Solution?
